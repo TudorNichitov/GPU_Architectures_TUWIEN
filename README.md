@@ -15,16 +15,21 @@ Adjacency Matrices: Used internally to represent the graph.
 
 1)Matrix Multiplication
         Multiplies the adjacency matrix up to |V| times.
+
         Complexity: Time O(|V|^4), Space O(|V|^2).
+
         Efficiency: Inefficient for larger graphs.
 
 2)Floyd-Warshall Algorithm
         Adapted for reachability, originally for shortest path computation.
+
         Complexity: Time O(|V|^3), Space O(|V|^2).
 
 3)APSP using SSSP
         Solves All-Pairs Shortest Path by applying Single-Source Shortest Path algorithm.
+
         Complexity: Time O(|V|^2 log |V| + |V||E|), Space O(|V| + |E|).
+
         Efficiency: Memory-efficient.
 
 ##Implementations
