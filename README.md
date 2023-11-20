@@ -2,7 +2,7 @@
 
 ### Authors: Fenz, Fuchssteiner, Nichitov, Spitzer
 
-##Introduction
+## Introduction
 
 This project explores algorithms for determining paths in directed graphs, focusing on the concept of transitive closure - an augmented graph where each vertex is directly connected to every other reachable vertex.
 
@@ -11,7 +11,7 @@ This project explores algorithms for determining paths in directed graphs, focus
 Format: Line-based file format for input and output.
 Adjacency Matrices: Used internally to represent the graph.
 
-##Approaches
+## Approaches
 
 1)Matrix Multiplication
         Multiplies the adjacency matrix up to |V| times.
@@ -32,7 +32,7 @@ Adjacency Matrices: Used internally to represent the graph.
 
         Efficiency: Memory-efficient.
 
-##Implementations
+## Implementations
 
 1)CPU: Sequential Floyd-Warshall as a baseline.
 
