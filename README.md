@@ -35,9 +35,13 @@ Adjacency Matrices: Used internally to represent the graph.
 ##Implementations
 
 1)CPU: Sequential Floyd-Warshall as a baseline.
+
 2)GPU: Various implementations, including:
+
        a Matrix Multiplication
+
        b Naïve Floyd-Warshall (variations with pinned, zero-copy, pitched memory)
+
        c Tiled Floyd-Warshall with Shared-Memory
 
 
