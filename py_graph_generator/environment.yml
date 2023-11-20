@@ -1,0 +1,13 @@
+name: gpu_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - scipy
+  - pandas
+  - seaborn
+  - pip
+  - pip:
+      - matplotlib==3.5.1
+      - networkx==2.8.3
+      - numpy==1.22.3
